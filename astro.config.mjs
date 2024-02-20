@@ -4,6 +4,7 @@ import starlightGhostCMS from '@matthiesenxyz/starlight-ghostcms';
 
 // https://astro.build/config
 export default defineConfig({
+	site: "https://starlightdemo.astro-ghostcms.xyz",
 	integrations: [
 		starlight({
 			title: 'My Docs',
