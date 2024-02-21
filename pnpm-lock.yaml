@@ -12,8 +12,8 @@ dependencies:
     specifier: ^0.19.0
     version: 0.19.0(astro@4.4.1)
   '@matthiesenxyz/starlight-ghostcms':
-    specifier: ^0.0.5
-    version: 0.0.5(@astrojs/starlight@0.19.0)(astro@4.4.1)(typescript@5.3.3)
+    specifier: ^0.0.6
+    version: 0.0.6(@astrojs/starlight@0.19.0)(astro@4.4.1)(typescript@5.3.3)
   astro:
     specifier: ^4.4.0
     version: 4.4.1(typescript@5.3.3)
@@ -143,6 +143,13 @@ packages:
     engines: {node: '>=18.14.1'}
     dependencies:
       prismjs: 1.29.0
+    dev: false
+
+  /@astrojs/rss@4.0.5:
+    resolution: {integrity: sha512-IyJVL6z09AQtxbgLaAwebT3T5YKe4oTHDesqydJv1KLHw+zEzzMCFuuNsEyxjiqu7df9+DDCpDXLj/WRiEUXvw==}
+    dependencies:
+      fast-xml-parser: 4.3.4
+      kleur: 4.1.5
     dev: false
 
   /@astrojs/sitemap@3.1.0:
@@ -712,12 +719,13 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: false
 
-  /@matthiesenxyz/starlight-ghostcms@0.0.5(@astrojs/starlight@0.19.0)(astro@4.4.1)(typescript@5.3.3):
-    resolution: {integrity: sha512-KDrAxexYjNVQBSi3TiUKioF2rDT90P0rUDUPRnAa4UHEoV8VffT6csvF7IZxjvVdijbr5J+ABwDNmJjiLmITtg==}
+  /@matthiesenxyz/starlight-ghostcms@0.0.6(@astrojs/starlight@0.19.0)(astro@4.4.1)(typescript@5.3.3):
+    resolution: {integrity: sha512-WAHGQGgDZWwX7/jgTtkMo63nvjpq16oKemxd9lZyQkyX+vS2FWiG83bKM4xVpLtT6m88yogmt+carxpynGdtew==}
     peerDependencies:
       '@astrojs/starlight': '>=0.19.0'
       astro: '>=4.3.7'
     dependencies:
+      '@astrojs/rss': 4.0.5
       '@astrojs/starlight': 0.19.0(astro@4.4.1)
       '@ts-ghost/core-api': 5.1.2
       astro: 4.4.1(typescript@5.3.3)
@@ -1897,6 +1905,13 @@ packages:
       glob-parent: 5.1.2
       merge2: 1.4.1
       micromatch: 4.0.5
+    dev: false
+
+  /fast-xml-parser@4.3.4:
+    resolution: {integrity: sha512-utnwm92SyozgA3hhH2I8qldf2lBqm6qHOICawRNRFu1qMe3+oqr+GcXjGqTmXTMGE5T4eC03kr/rlh5C1IRdZA==}
+    hasBin: true
+    dependencies:
+      strnum: 1.0.5
     dev: false
 
   /fastq@1.17.1:
@@ -3976,6 +3991,10 @@ packages:
   /strip-json-comments@2.0.1:
     resolution: {integrity: sha512-4gB8na07fecVVkOI6Rs4e7T6NOTki5EmL7TUduTs6bu3EdnSycntVJ4re8kgZA+wx9IueI2Y11bfbgwtzuE0KQ==}
     engines: {node: '>=0.10.0'}
+    dev: false
+
+  /strnum@1.0.5:
+    resolution: {integrity: sha512-J8bbNyKKXl5qYcR36TIO8W3mVGVHrmmxsd5PAItGkmyzwJvybiw2IVq5nqd0i4LSNSkB/sx9VHllbfFdr9k1JA==}
     dev: false
 
   /style-to-object@0.4.4:
