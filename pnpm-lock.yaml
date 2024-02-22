@@ -12,8 +12,8 @@ dependencies:
     specifier: ^0.19.0
     version: 0.19.0(astro@4.4.1)
   '@matthiesenxyz/starlight-ghostcms':
-    specifier: ^0.0.6
-    version: 0.0.6(@astrojs/starlight@0.19.0)(astro@4.4.1)(typescript@5.3.3)
+    specifier: ^0.0.7
+    version: 0.0.7(@astrojs/starlight@0.19.0)(astro@4.4.1)(typescript@5.3.3)
   astro:
     specifier: ^4.4.0
     version: 4.4.1(typescript@5.3.3)
@@ -719,8 +719,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: false
 
-  /@matthiesenxyz/starlight-ghostcms@0.0.6(@astrojs/starlight@0.19.0)(astro@4.4.1)(typescript@5.3.3):
-    resolution: {integrity: sha512-WAHGQGgDZWwX7/jgTtkMo63nvjpq16oKemxd9lZyQkyX+vS2FWiG83bKM4xVpLtT6m88yogmt+carxpynGdtew==}
+  /@matthiesenxyz/starlight-ghostcms@0.0.7(@astrojs/starlight@0.19.0)(astro@4.4.1)(typescript@5.3.3):
+    resolution: {integrity: sha512-23/E+hGbU+u0yQEBU5tBWnbtAJKEXo6xfNC8he+zpbGDeR8TbBNnxGXVIQIU2wVOM/p4Ybu3VLhzjF+G7mkrFw==}
     peerDependencies:
       '@astrojs/starlight': '>=0.19.0'
       astro: '>=4.3.7'
